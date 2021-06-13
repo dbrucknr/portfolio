@@ -1,9 +1,11 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #4682b4;
     overflow: hidden;
+    display: flex; 
+    justify-content: center
   }
-  
+
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
@@ -22,6 +24,14 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #778899;
     color: white;
   }
+
+.topnav-centered a {
+    float: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
